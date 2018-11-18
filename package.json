@@ -1,6 +1,6 @@
 {
   "name": "lundiak-test-2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Experimental NPM package.",
   "main": "index.js",
   "bin": {
@@ -26,6 +26,5 @@
   "bugs": {
     "url": "https://github.com/alundiak/lundiak-test-2/issues"
   },
-  "homepage": "https://github.com/alundiak/lundiak-test-2#readme",
-  "license": "ISC"
+  "homepage": "https://github.com/alundiak/lundiak-test-2#readme"
 }
