@@ -1,0 +1,31 @@
+{
+  "name": "lundiak-test-2",
+  "version": "1.0.5",
+  "description": "Experimental NPM package.",
+  "main": "index.js",
+  "bin": {
+    "lundiakTest1": "./cli1.js",
+    "lundiakTest2": "./cli2.js"
+  },
+  "scripts": {
+    "preversion": "echo \"NPM now will increase version for package\"",
+    "version": "echo \"Releasing new version...\"",
+    "postversion": "git push --tags && git push",
+    "release": "npm version patch && npm publish"
+  },
+  "engines": {
+    "node": "4.x",
+    "npm": "3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alundiak/lundiak-test-2.git"
+  },
+  "author": "Andrii Lundiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alundiak/lundiak-test-2/issues"
+  },
+  "homepage": "https://github.com/alundiak/lundiak-test-2#readme",
+  "license": "ISC"
+}
