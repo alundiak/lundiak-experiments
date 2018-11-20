@@ -1,6 +1,6 @@
 {
   "name": "@lundiak/lundiak-experiments",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Experimental NPM package.",
   "main": "index.js",
   "bin": {
