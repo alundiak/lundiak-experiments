@@ -1,5 +1,5 @@
 {
-  "name": "@lundiak/lundiak-experiments",
+  "name": "lundiak-experiments",
   "version": "1.0.10",
   "description": "Experimental NPM package.",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "preversion": "echo \"NPM now will increase version for package\"",
     "version": "echo \"Releasing new version...\"",
     "postversion": "git push --tags && git push",
-    "release": "npm version patch && npm publish"
+    "release": "npm version patch && npm publish",
+    "releaseScoped": "npm version patch && npm publish --access public"
   },
   "engines": {
     "node": "4.x",
